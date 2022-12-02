@@ -1,0 +1,74 @@
+/* h3{
+    padding: 0; margin: 0;
+}
+
+p{
+    padding: 0; margin: 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #E5E5E5;
+  }
+
+.root{
+    display: flex;
+	flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.menuview{
+    width:100%;
+    padding-right: 16px;
+    overflow-y:scroll; 
+    position:relative;
+    height: 100vh;
+    border-right: 1px solid #D2D6DD;
+}
+
+.orderview{
+    width: 400px;
+    overflow-y:scroll; 
+    position:relative;
+    height: 100vh;
+    margin-left: auto;
+    padding-left: 16px;
+}
+
+.menu-heading{
+    color: #931916;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.section-name{
+    color: #931916;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.itemView{
+    background: #FFFFFF;
+    border: 1px solid #D2D6DD;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 0px 16px;
+    width:100%;
+}
+
+.itemView:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.itemName{
+    padding-bottom: 0; margin-bottom: 0;
+}
+
+.itemDesc{
+    padding-top: 0; margin-top: 0;
+}

@@ -6,6 +6,7 @@ export interface MovieListProps {
 }
 
 export const MovieList = ({ movies }: MovieListProps) => {
+  console.log({movies})
   return (
     <table data-testid="movie-table">
       <thead>
